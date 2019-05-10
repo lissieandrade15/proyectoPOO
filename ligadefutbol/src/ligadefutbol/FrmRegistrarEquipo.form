@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Registrar Equipo"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel1" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="lblNombreEquipo" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txtNombreEquipo" min="-2" pref="240" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                      <Component id="lblCodigoE" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="txtCodigoE" min="-2" pref="71" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblNombreEquipo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNombreEquipo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCodigoE" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCodigoE" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jPanel2" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Directiva">
+              <Font PropertyName="font" name="Vani" size="12" style="1"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblPresidente" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                              <Component id="txtPresidente" min="-2" pref="264" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblVicePresidente" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="txtVicePresidente" min="-2" pref="266" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblTesorero" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblSecretario" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblRepresentante" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="txtRepresentante" pref="266" max="32767" attributes="0"/>
+                              <Component id="txtSecretario" max="32767" attributes="0"/>
+                              <Component id="txtTesorero" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblPresidente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPresidente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblVicePresidente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtVicePresidente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblTesorero" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtTesorero" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblSecretario" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtSecretario" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblRepresentante" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtRepresentante" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="25" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblPresidente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Presidente: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblVicePresidente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Vice-Presidente: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblTesorero">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tesorero: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblSecretario">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Secretario: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblRepresentante">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Representante: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPresidente">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtVicePresidente">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtTesorero">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSecretario">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtRepresentante">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lblNombreEquipo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre del Equipo: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNombreEquipo">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNombreEquipoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCodigoE">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Codigo: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCodigoE">
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Cuerpo T&#xe8;cnico">
+              <Font PropertyName="font" name="Vani" size="12" style="1"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="btnAgregarJ" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                          <Component id="btnSalir" min="-2" pref="97" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblEntrenador1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Entrenador2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblEntrenadorArquero" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="txtEntrenador2" pref="269" max="32767" attributes="0"/>
+                                  <Component id="txtEntrenador1" max="32767" attributes="0"/>
+                                  <Component id="txtEntrenadorArquero" alignment="1" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblPreparadorFisico" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblAsistente" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblFisio" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblMedico" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtMedico" pref="268" max="32767" attributes="0"/>
+                                  <Component id="txtFisio" max="32767" attributes="0"/>
+                                  <Component id="txtAsistente" max="32767" attributes="0"/>
+                                  <Component id="txtPreparadorFisico" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblEntrenador1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtEntrenador1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Entrenador2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtEntrenador2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblEntrenadorArquero" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtEntrenadorArquero" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblPreparadorFisico" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPreparadorFisico" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblAsistente" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtAsistente" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblFisio" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtFisio" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblMedico" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtMedico" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnAgregarJ" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="btnSalir" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="31" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblEntrenador1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Entrenador 1: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Entrenador2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Entrenador 2:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEntrenador1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEntrenador2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblEntrenadorArquero">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ent. de Arqueros: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEntrenadorArquero">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPreparadorFisico">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Preparador Fisico: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPreparadorFisico">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAsistente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Asistente: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtAsistente">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblFisio">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fisioterapeuta: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtFisio">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblMedico">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Medico: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtMedico">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnAgregarJ">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Agregar Jugadores"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnSalir">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Salir"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
